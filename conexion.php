@@ -1,7 +1,7 @@
 <?php 
-    define('Servidor', 'localhost:3306');
-    define('Usuario', 'root');
-    define('Password', '');
+    define('Servidor', 'dbappsoftwareinventory.mysql.database.azure.com:3306');
+    define('Usuario', 'sergio_galindo733');
+    define('Password', 'G20Isabella');
     define('Database', 'softwareinventory');
 
     $conectar = mysqli_connect(Servidor, Usuario, Password, Database);
