@@ -27,9 +27,11 @@ include "../conexion.php";
 
 <body>
 	<div id="contenedor">
+
 		<?php include_once "includes/menu.php"; ?>
+
 		<!-- Header -->
-		<div id="cabecera">
+		<div id="">
 			<div class="row-cabecera">
 				<div class="colcabecera text-right text-dark">
 					<a><?php echo fechaBogota();?></a>
