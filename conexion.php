@@ -1,4 +1,5 @@
 <?php 
+/*
     define('Servidor', 'dbappsoftwareinventory.mysql.database.azure.com:3306');
     define('Usuario', 'sergio_galindo733');
     define('Password', 'G20Isabella');
@@ -11,7 +12,8 @@
     }else{
         //echo "La conexión a la base de datos ha sido exitosa.";
     }
-/*
+    */
+
     define('Servidor', 'localhost:3306');
     define('Usuario', 'root');
     define('Password', '');
@@ -24,5 +26,5 @@
     }else{
         //echo "La conexión a la base de datos ha sido exitosa.";
     }
-*/
+
 ?>
