@@ -11,7 +11,6 @@
     }else{
         //echo "La conexión a la base de datos ha sido exitosa.";
     }
-
 /*
     define('Servidor', 'localhost:3306');
     define('Usuario', 'root');

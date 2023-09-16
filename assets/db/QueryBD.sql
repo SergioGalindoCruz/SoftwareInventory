@@ -175,4 +175,19 @@ UPDATE productos SET stock = nueva_existencia, precioventa = nuevo_precio WHERE 
 SELECT nueva_existencia, nuevo_precio;
 END$$
 
+CREATE PROCEDURE `data` ()  BEGIN
+DECLARE usuariosdata int;
+DECLARE clientesdata int;
+DECLARE proveedoresdata int;
+DECLARE productosdata int;
+DECLARE ventasdata int;
+SELECT COUNT(*) INTO usuariosdata FROM usuarios;
+SELECT COUNT(*) INTO clientesdata FROM clientes;
+SELECT COUNT(*) INTO proveedoresdata FROM proveedores;
+SELECT COUNT(*) INTO productosdata FROM productos;
+SELECT COUNT(*) INTO ventasdata FROM factura WHERE fecha > CURDATE();
+SELECT usuariosdata, clientesdata, proveedoresdata, productosdata, ventasdata;
+
+END$$
+
 DELIMITER ;

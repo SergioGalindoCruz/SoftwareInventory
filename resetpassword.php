@@ -27,6 +27,7 @@
             </div> 
             <br>
             <button type="submit">Enviar</button>
+            <button type="button" onclick="history.back()" name="Regresar" value="Regresar">Regresar</button>
         </div>
     </form>
 </body>

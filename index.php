@@ -91,5 +91,5 @@ if (!empty($_SESSION['active'])) {
         </div>
     </div>
 </body>
-<?php include "sistema/includes/footer.php" ?>
+<?php include "sistema/includes/footerlogin.php" ?>
 </html>

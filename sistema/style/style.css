@@ -144,15 +144,15 @@ z-index: -1;
 /*Menu*/
 #menu {
     float: left;
-    width: 360px;
+    width: 25%;
     height: 1000px;
     top: 0;
     left: 0;
     list-style:none;
     position: relative;
     bottom: 0;
-    background: #adb3bb;
-    color: rgb(0, 0, 0);
+    background: #0d6efd;
+    color: white;
     text-align: left;
     font-size: 20px;
 }
@@ -162,13 +162,7 @@ z-index: -1;
 
 /*Contenido*/
 #contenido {
-margin-left: 50px;
 float: left;
 height: 900px;
 width: 550px;
-}
-
-.logo-img {
-margin-top: 30px;
-margin-bottom: 30px;
 }
